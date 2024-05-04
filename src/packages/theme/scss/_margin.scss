@@ -1,4 +1,4 @@
-@import 'SIZE';
+@import 'theme';
 
 @each $key, $value in $SIZE {
     .m-#{$key} {
