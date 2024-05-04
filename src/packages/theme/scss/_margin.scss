@@ -1,0 +1,7 @@
+@import 'theme';
+
+@each $key, $value in $SIZE {
+    .m-#{$key} {
+        margin: #{$value};
+    }
+}

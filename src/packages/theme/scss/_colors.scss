@@ -1,0 +1,7 @@
+@import 'theme';
+
+@each $key, $value in $COLORS {
+    .color-#{$key} {
+        color: #{$value}
+    }
+}

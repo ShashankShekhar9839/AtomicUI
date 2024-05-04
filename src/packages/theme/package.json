@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "node-sass scss/_index.scss dist/styles.css --output-style compressed"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "css-to-monatomic": "^1.0.0"
+    "css-to-monatomic": "^1.0.0",
+    "sass": "^1.76.0"
+  },
+  "devDependencies": {
+    "node-sass": "^9.0.0"
   }
 }

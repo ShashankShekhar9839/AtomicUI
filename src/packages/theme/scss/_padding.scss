@@ -1,0 +1,19 @@
+@import 'theme';
+
+@each $key, $value in $SIZE {
+    .p-#{$key} {
+        padding: #{$value};
+    }
+    .pt-#{$key} {
+        padding-top: #{$value};
+    }
+    .pb-#{$key} {
+        padding-bottom: #{$value};
+    }
+    .pl-#{$key} {
+        padding-left: #{$value};
+    }
+    .pr-#{$key} {
+        padding-right: #{$value};
+    }
+}
