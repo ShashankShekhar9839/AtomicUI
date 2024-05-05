@@ -15,6 +15,13 @@ $SIZE: (
   13: 26px
 );
 
+$POSITION: (
+   "rel": "relative",
+   "abs" : "absolute",
+   "fixed": "fixed",
+   "sti" : "sticky"
+);
+
 $COLORS: (
   "Maroon": "#800000",
   "DarkRed": "#8B0000",
