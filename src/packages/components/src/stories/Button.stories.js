@@ -15,9 +15,3 @@ export const Default = () => (
   </Button>
 );
 
-// Story 2: Button with custom style
-export const CustomStyle = () => (
-  <Button style={{ backgroundColor: 'red', color: 'white' }}>
-    Custom Style
-  </Button>
-);
