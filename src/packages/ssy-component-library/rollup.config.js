@@ -1,6 +1,7 @@
 import babel from 'rollup-plugin-babel';
 import resolve from 'rollup-plugin-node-resolve';
 import commonjs from 'rollup-plugin-commonjs';
+import postcss from 'rollup-plugin-postcss';
 import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 
 export default {
@@ -23,6 +24,10 @@ export default {
       extensions: ['.js', '.jsx', '.json'],
     }),
     commonjs(),
+    postcss({
+    extract: true,
+    minimize : true,
+    }),
     babel({
       exclude: 'node_modules/**',
       runtimeHelpers: true

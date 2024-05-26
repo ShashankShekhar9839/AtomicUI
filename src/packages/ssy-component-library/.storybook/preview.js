@@ -1,4 +1,5 @@
 /** @type { import('@storybook/react').Preview } */
+import 'ssy-theme/dist/styles.css';
 const preview = {
   parameters: {
     controls: {
