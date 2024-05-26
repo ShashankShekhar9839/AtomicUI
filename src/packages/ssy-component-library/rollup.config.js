@@ -19,7 +19,9 @@ export default {
   ],
   plugins: [
     peerDepsExternal(),
-    resolve(),
+    resolve({
+      extensions: ['.js', '.jsx', '.json'],
+    }),
     commonjs(),
     babel({
       exclude: 'node_modules/**',

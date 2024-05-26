@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "module": "dist/index.es.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "build": "rollup -c"
   },
   "keywords": [],
   "author": "",
@@ -14,7 +16,8 @@
   "dependencies": {
     "prop-types": "^15.8.1",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "ssy-theme": "^1.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.24.6",

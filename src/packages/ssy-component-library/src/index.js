@@ -1,1 +1,1 @@
-export {default as Button} from './Card';
+export { default as Card } from './Card';
