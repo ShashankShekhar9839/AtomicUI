@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Scrollspy = () => {
+const Scrollspy = ({children}) => {
   return (
-    <div>Scrollspy</div>
+    <div>{children}</div>
   )
 }
 
